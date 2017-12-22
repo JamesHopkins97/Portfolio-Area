@@ -1,0 +1,3 @@
+C:\Users\James\Documents\Projects\SwitchTank Part Project\SwitchTankPart\Source\SwitchTankPart\SwitchTankPart.Build.cs
+C:\Users\James\Documents\Projects\SwitchTank Part Project\SwitchTankPart\Source\SwitchTankPart.Target.cs
+C:\Users\James\Documents\Projects\SwitchTank Part Project\SwitchTankPart\Source\SwitchTankPartEditor.Target.cs

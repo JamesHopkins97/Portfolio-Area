@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\SwitchTankPart.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{90ADCE6D-532C-4EC1-882B-0DBA3D8E5429}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\SwitchTankPart.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\SwitchTankPartEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{ED1D9256-ED3D-4724-A4B6-AC6A9910A80C}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\SwitchTankPart">
+			<UniqueIdentifier>{D62AFCFE-34D2-480C-B352-CD2430A5A326}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\SwitchTankPart\SwitchTankPart.Build.cs">
+			<Filter>Source\SwitchTankPart</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\SwitchTankPart\SwitchTankPart.cpp">
+			<Filter>Source\SwitchTankPart</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SwitchTankPart\SwitchTankPart.h">
+			<Filter>Source\SwitchTankPart</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\SwitchTankPart\SwitchTankPartGameModeBase.cpp">
+			<Filter>Source\SwitchTankPart</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SwitchTankPart\SwitchTankPartGameModeBase.h">
+			<Filter>Source\SwitchTankPart</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

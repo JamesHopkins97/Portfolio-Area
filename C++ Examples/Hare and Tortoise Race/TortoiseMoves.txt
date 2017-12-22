@@ -1,0 +1,10 @@
+Fast_Plod	3
+Fast_Plod	3
+Fast_Plod	3
+Fast_Plod	3
+Fast_Plod	3
+Slip		-6
+Slip		-6
+Slow_Plod	1
+Slow_Plod	1
+Slow_Plod	1

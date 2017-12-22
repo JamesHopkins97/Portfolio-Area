@@ -1,0 +1,54 @@
+Initialize engine version: 5.6.3p2 (b3d7a6428558)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 960 (ID=0x1401)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+    Driver:   23.21.13.8813
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\James\Desktop\Portfolio\Unity Examples\Floppsie - A Bunny Adventure Game!\EXE Build\Floppsie_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\James\Desktop\Portfolio\Unity Examples\Floppsie - A Bunny Adventure Game!\EXE Build\Floppsie_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\James\Desktop\Portfolio\Unity Examples\Floppsie - A Bunny Adventure Game!\EXE Build\Floppsie_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\James\Desktop\Portfolio\Unity Examples\Floppsie - A Bunny Adventure Game!\EXE Build\Floppsie_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\James\Desktop\Portfolio\Unity Examples\Floppsie - A Bunny Adventure Game!\EXE Build\Floppsie_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\James\Desktop\Portfolio\Unity Examples\Floppsie - A Bunny Adventure Game!\EXE Build\Floppsie_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\James\Desktop\Portfolio\Unity Examples\Floppsie - A Bunny Adventure Game!\EXE Build\Floppsie_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\James\Desktop\Portfolio\Unity Examples\Floppsie - A Bunny Adventure Game!\EXE Build\Floppsie_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.022 seconds
+Platform assembly: C:\Users\James\Desktop\Portfolio\Unity Examples\Floppsie - A Bunny Adventure Game!\EXE Build\Floppsie_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\James\Desktop\Portfolio\Unity Examples\Floppsie - A Bunny Adventure Game!\EXE Build\Floppsie_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.228795 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 4410 -> priority: 1 
+  Thread -> id: 30ec -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.081995 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 334.
+Total: 0.205459 ms (FindLiveObjects: 0.014864 ms CreateObjectMapping: 0.015525 ms MarkObjects: 0.168794 ms  DeleteObjects: 0.005945 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.321402 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 696.
+Total: 0.292664 ms (FindLiveObjects: 0.038647 ms CreateObjectMapping: 0.023783 ms MarkObjects: 0.216360 ms  DeleteObjects: 0.013543 ms)
+
+Player entered the portal.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+TerrainData is missing splat texture 0.
+ 
+(Filename:  Line: 201)
+
+UnloadTime: 4.279314 ms
+
+Unloading 69 unused Assets to reduce memory usage. Loaded Objects now: 802.
+Total: 1.132011 ms (FindLiveObjects: 0.039968 ms CreateObjectMapping: 0.025765 ms MarkObjects: 0.251044 ms  DeleteObjects: 0.814903 ms)
+
