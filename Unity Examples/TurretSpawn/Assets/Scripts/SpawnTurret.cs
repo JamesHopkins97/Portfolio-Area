@@ -4,28 +4,34 @@ using UnityEngine;
 
 public class SpawnTurret : MonoBehaviour
 {
-    private float time = 1.0f;
     int num;
-    public GameObject Turret2;
-    // Use this for initialization
-    void Start()
-    {
+    public GameObject TurretCube;
+    bool Spawned = false;
 
-    }
+    // Use this for initialization
+    void Start() { }
 
     // Update is called once per frame
     void Update()
     {
-        // On mouse button 1 click
-        if (Input.GetButtonDown("Fire1"))
+        if (Spawned == false)
         {
-            RaycastHit hit;
-            Ray newRay = Camera.main.ScreenPointToRay(Input.mousePosition);
-            if (Physics.Raycast(newRay, out hit))
+            // On mouse button 1 click
+            if (Input.GetKey(KeyCode.Mouse0))
             {
-                //Turret2.transform.localScale = new Vector3(1000, 1000, 1000);
-                Instantiate(Turret2, hit.point, transform.localRotation);
-                Debug.Log("PRESSED");
+                // Spawn cube
+                RaycastHit hit;
+                Ray newRay = Camera.main.ScreenPointToRay(Input.mousePosition);
+                if (Physics.Raycast(newRay, out hit))
+                {
+                    // Instantiates the new turret where the mouse is clicked
+                    Instantiate(TurretCube, hit.point, transform.localRotation);
+
+                    //Enables EnemySpawner Script
+                    GetComponent<EnemySpawner>().enabled = true;
+                    GetComponent<HealthDisplay>().enabled = true;
+                    Spawned = true;
+                }
             }
         }
     }

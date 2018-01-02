@@ -1,4 +1,18 @@
+#Folders
 C++ Examples*
 Game Design Documents*
 Python Examples*
 Unreal Examples*
+
+#Visual Studio Caches
+/.vs/
+
+# Unity3D generated meta files
+*.pidb.meta
+
+# Unity3D Generated File On Crash Reports
+*/sysinfo.txt
+
+# Builds
+*.apk
+*.unitypackage

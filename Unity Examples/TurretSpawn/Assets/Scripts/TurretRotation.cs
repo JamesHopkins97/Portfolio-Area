@@ -11,7 +11,6 @@ public class TurretRotation : MonoBehaviour
     void Start()
     {
         num = RNG();
-
     }
 
     // Update is called once per frame
@@ -42,7 +41,7 @@ public class TurretRotation : MonoBehaviour
             transform.Rotate(new Vector3(0, 0, Time.deltaTime * 50));
         }
         count++;
-        Debug.Log(count);
+        //Debug.Log(count);
         if (count == 200)
         {
             num = RNG();
@@ -57,38 +56,4 @@ public class TurretRotation : MonoBehaviour
         int rand = randomNumber.Next(0, 5);
         return rand;
     }
-
-    //bool CheckDegree()
-    //{
-
-    //}
-
-    //void ChooseNew()
-    //{
-    //    num = RNG();
-    //    if (num == 0)
-    //    {
-    //        Turret.transform.Rotate(new Vector3(0, 0, z));
-    //    }
-    //    if (num == 1)
-    //    {
-    //        Turret.transform.Rotate(new Vector3(0, 0, z));
-    //    }
-    //    if (num == 2)
-    //    {
-    //        Turret.transform.Rotate(new Vector3(0, y, 0));
-    //    }
-    //    if (num == 3)
-    //    {
-    //        Turret.transform.Rotate(new Vector3(0, y, 0));
-    //    }
-    //    if (num == 4)
-    //    {
-    //        Turret.transform.Rotate(new Vector3(x, 0, 0));
-    //    }
-    //    if (num == 5)
-    //    {
-    //        Turret.transform.Rotate(new Vector3(x, 0, 0));
-    //    }
-    //}
 }

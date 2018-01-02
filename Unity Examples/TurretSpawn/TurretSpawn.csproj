@@ -79,10 +79,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Background.cs" />
+    <Compile Include="Assets\Scripts\EnemyHealth.cs" />
+    <Compile Include="Assets\Scripts\EnemyOrbit.cs" />
+    <Compile Include="Assets\Scripts\EnemySpawner.cs" />
     <Compile Include="Assets\Scripts\FreeCamMovement.cs" />
     <Compile Include="Assets\Scripts\FreeCamView.cs" />
+    <Compile Include="Assets\Scripts\HealthDisplay.cs" />
     <Compile Include="Assets\Scripts\SpawnTurret.cs" />
     <Compile Include="Assets\Scripts\TurretRotation.cs" />
+    <Compile Include="Assets\Scripts\TurretShoot.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
