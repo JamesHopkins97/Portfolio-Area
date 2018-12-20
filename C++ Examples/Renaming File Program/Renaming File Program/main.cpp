@@ -16,7 +16,7 @@ int main()
 	char num = digitOne;
 	char num2 = digitTwo;
 	//Don't forget to change the amountOfFiles for the For loop.
-	int amountOfFiles = 0;
+	int amountOfFiles = 25;
 	
 	//for loop to loop the amount of files you are changing. The maximum number can be changed if needed.
 	for (int i = 0; i < amountOfFiles; i++)
@@ -26,11 +26,11 @@ int main()
 		//Same as above, but change the file name to what you want.
 		string newname = "";
 		//The subscript of the string is the number along the path that you want to change.
-		address[80] = num;
-		address[81] = num2;
+		address[0] = num;
+		address[1] = num2;
 
-		newname[80] = num;
-		newname[81] = num2;
+		newname[0] = num;
+		newname[1] = num2;
 
 		//renames the file with newname!
 		rename(address.c_str(), newname.c_str());
