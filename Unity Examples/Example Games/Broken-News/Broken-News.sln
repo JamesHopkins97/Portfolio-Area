@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Broken-News", "Broken-News.csproj", "{5466A5A1-7F32-BB0A-774A-0979B64F8AAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Broken-News.Editor", "Broken-News.Editor.csproj", "{243A6110-A04D-C655-E58C-CB0B5C588371}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5466A5A1-7F32-BB0A-774A-0979B64F8AAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5466A5A1-7F32-BB0A-774A-0979B64F8AAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5466A5A1-7F32-BB0A-774A-0979B64F8AAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5466A5A1-7F32-BB0A-774A-0979B64F8AAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{243A6110-A04D-C655-E58C-CB0B5C588371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{243A6110-A04D-C655-E58C-CB0B5C588371}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{243A6110-A04D-C655-E58C-CB0B5C588371}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{243A6110-A04D-C655-E58C-CB0B5C588371}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
