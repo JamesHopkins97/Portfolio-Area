@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
+# Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Broken-News", "Broken-News.csproj", "{5466A5A1-7F32-BB0A-774A-0979B64F8AAA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Broken-News.Editor", "Broken-News.Editor.csproj", "{243A6110-A04D-C655-E58C-CB0B5C588371}"

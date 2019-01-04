@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{43BAC69A-FDA3-8F2F-B8FC-1F348C542E5E}</ProjectGuid>
+    <ProjectGuid>{6B0B43B8-76A7-66CC-CB54-CEEF5625557E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
@@ -116,16 +116,16 @@
     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/James/Music/LudumDare42/LDJAM42 (1)/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/James/Documents/GitHub/Portfolio-Area/Unity Examples/Example Games/LDJAM42/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/James/Music/LudumDare42/LDJAM42 (1)/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/James/Documents/GitHub/Portfolio-Area/Unity Examples/Example Games/LDJAM42/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/James/Music/LudumDare42/LDJAM42 (1)/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/James/Documents/GitHub/Portfolio-Area/Unity Examples/Example Games/LDJAM42/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/James/Music/LudumDare42/LDJAM42 (1)/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/James/Documents/GitHub/Portfolio-Area/Unity Examples/Example Games/LDJAM42/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity 2018.2/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
